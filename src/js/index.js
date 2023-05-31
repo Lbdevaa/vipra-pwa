@@ -2,17 +2,6 @@ import './import/modules';
 import './import/components';
 import './install-btn';
 
-// window.addEventListener('load', async () => {
-//   if ('serviceWorker' in navigator) {
-//     try {
-//       const reg = await navigator.serviceWorker.register('/check-wifi/sw.js');
-//       console.log('Service worker register success', reg);
-//     } catch (e) {
-//       console.log('Service worker register fail');
-//     }
-//   }
-// });
-
 window.addEventListener('load', () => {
   const loginInput = document.querySelector('input[name="login"]');
   const passwordInput = document.querySelector('input[name="password"]');
