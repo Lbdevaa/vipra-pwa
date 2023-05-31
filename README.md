@@ -8,3 +8,5 @@
 * ```3. yarn run dev``` (режим разработки)
 * ```yarn run build``` (режим сборки)
 * ```yarn install``` (update the lockfile)
+
+dist+main/icons+main/sw.js

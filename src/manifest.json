@@ -1,8 +1,8 @@
 {
   "name": "WIFI PWA",
   "short_name": "WIFI PWA",
-  "theme_color": "#3a1a86",
-  "background_color": "#1a4f79",
+  "theme_color": "#018137",
+  "background_color": "#018137",
   "display": "standalone",
   "orientation": "portrait",
   "start_url": ".",
