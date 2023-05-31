@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 16px;
+  background: #ffffff;
+  overflow-x: hidden;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  min-height: 100vh;
+  color: #090909;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input,
+label {
+  font-family: 'SF Pro Text', sans-serif;
+  outline: none;
+}

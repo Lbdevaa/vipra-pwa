@@ -1,0 +1,40 @@
+.main-page
+    padding: 15vh 0 10vh
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    background: url(../img/bg.png) no-repeat center center
+    background-size: cover
+    .container
+        flex-grow: 1
+        height: 100%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+.authorize-btns
+    padding-bottom: 30px
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 180px
+    margin: 0 auto
+    gap: 25px
+    &__btn
+        font-size: rem(17px)
+
+.authorize-form
+    display: flex
+    flex-wrap: wrap
+    gap: 25px
+    +to(600px)
+        flex-direction: column
+    &__btn
+        font-size: rem(17px)
+    &__inputs
+        width: 100%
+        display: grid
+        grid-template-columns: 1fr 1fr
+        gap: 25px
+        +to(600px)
+            grid-template-columns: 1fr
